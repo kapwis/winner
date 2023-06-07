@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+body{
+    background-image: url(images.jpg);
+}
+.amos{
+    height: 100vh;
+    background-color: black;
+}
+h1{
+    color: white;
+}
+.info p{
+   
+}
+.info h1, h2, p, button{
+    color: white;
+}
+.info{
+    position: absolute;
+    top: 50%;
+    left: 150px;
+}
+.info h1{
+    font-size: 55px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+span{
+    color: aqua;
+}
+ul li a{
+    text-decoration: none;
+    margin-right: 4em;
+    color: white;
+    font-size: 20px;
+    
+}
+.btn{
+    background-color: aqua;
+    color: white;
+    padding: 1em 3em;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.info button{
+    background-color: aqua;
+    color: white;
+    padding: 1em 3em;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
